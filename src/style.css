@@ -81,6 +81,7 @@ nav {
     width: 25rem;
     height: 100vh;
     background:#d7d4ed;
+    
     position: fixed;
     
     top: 0;
@@ -285,10 +286,12 @@ nav {
 .testimonials::before {
     content: "";
     position: absolute;
+
     top: -3px;
     left: 0;
     width: 100%;
     height: 4.7rem;
+
     background: url('../assets/wave-small-reversed.png');
     background-size: cover;
 }
@@ -296,9 +299,11 @@ nav {
 .testimonial {
     width: 100%;
     color: #fafafa;
+
     position: absolute;
     top: 55%;
     left: 50%;
+
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -313,9 +318,12 @@ nav {
     position: absolute;
     top: -8rem;
     left: 50%;
+
     transform: translateX(-50%);
+
     font-size: 8rem;
     color: #eb648c;
+
     opacity: .5;
     z-index: -1;
 }
